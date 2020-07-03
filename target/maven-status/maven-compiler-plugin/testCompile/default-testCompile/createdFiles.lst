@@ -1,0 +1,12 @@
+dataproviders\poundSterlingCurrencyProvider$1.class
+baseTest.class
+checkPoundSterlingCurrency.class
+dataproviders\dollarCurrencyProvider.class
+registerTest.class
+checkDollarCurrencyTest.class
+checkEuroCurrencyTest.class
+dataproviders\euroCurrencyProvider$1.class
+dataproviders\euroCurrencyProvider.class
+dataproviders\poundSterlingCurrencyProvider.class
+dataproviders\dollarCurrencyProvider$1.class
+shoppingTest.class

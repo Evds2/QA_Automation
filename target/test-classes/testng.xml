@@ -1,0 +1,41 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="FinalProyect">
+    <test name="registerTest">
+        <parameter name="firstName" value="Elvin"></parameter>
+        <parameter name="lastName" value="Gomez"></parameter>
+        <parameter name="phone" value="12345678"></parameter>
+        <parameter name="password" value="Test123"></parameter>
+        <parameter name="confirmPassword" value="Test123"></parameter>
+        <parameter name="browser" value="chrome"></parameter>
+        <classes>
+            <class name="registerTest"></class>
+        </classes>
+    </test>
+    <test name="searchingAndShoppingItem">
+        <parameter name="email" value="elvin.test@testmail.com"></parameter>
+        <parameter name="password" value="Test123"></parameter>
+        <parameter name="searchItem" value="macbook"></parameter>
+        <parameter name="browser" value="firefox"></parameter>
+        <classes>
+            <class name="shoppingTest"></class>
+        </classes>
+    </test>
+    <test name="checkEuroCurrency">
+        <parameter name="browser" value="chrome"></parameter>
+        <classes>
+            <class name="checkEuroCurrencyTest"></class>
+        </classes>
+    </test>
+    <test name="checkPoundSterlingCurrency">
+        <parameter name="browser" value="firefox"></parameter>
+        <classes>
+            <class name="checkPoundSterlingCurrency"></class>
+        </classes>
+    </test>
+    <test name="checkDollarCurrency">
+        <parameter name="browser" value="chrome"></parameter>
+        <classes>
+            <class name="checkDollarCurrencyTest"></class>
+        </classes>
+    </test>
+</suite>

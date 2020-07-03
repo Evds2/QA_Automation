@@ -1,0 +1,11 @@
+{
+  "dataset": [
+    {
+      "email": "elvin.test@testmail.com",
+      "password": "Test123",
+      "searchItem": "Iphone",
+      "browser": "chrome",
+      "poundSterlingCurrency": "£76.19"
+    }
+  ]
+}

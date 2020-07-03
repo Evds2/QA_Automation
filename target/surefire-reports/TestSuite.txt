@@ -1,0 +1,12 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 5, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 70.487 s <<< FAILURE! - in TestSuite
+checkEuroCurrency(checkEuroCurrencyTest)  Time elapsed: 5.366 s  <<< FAILURE!
+java.lang.AssertionError: expected [86.93â‚¬] but found [86.93€]
+	at checkEuroCurrencyTest.checkEuroCurrency(checkEuroCurrencyTest.java:33)
+
+checkPoundSterlingCurrency(checkPoundSterlingCurrency)  Time elapsed: 6.213 s  <<< FAILURE!
+java.lang.AssertionError: expected [Â£76.19] but found [£76.19]
+	at checkPoundSterlingCurrency.checkPoundSterlingCurrency(checkPoundSterlingCurrency.java:30)
+

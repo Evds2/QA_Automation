@@ -1,0 +1,12 @@
+pajeobject\headerPage.class
+pajeobject\searchPage.class
+pojo\euroCurrencyData.class
+pajeobject\productPage.class
+pajeobject\loginPage.class
+pojo\poundSterlingCurrencyData.class
+pojo\dollarCurrencyData.class
+pajeobject\basePage.class
+com\techground\Main.class
+pajeobject\registerPage.class
+pajeobject\dashboardPage.class
+pajeobject\cartPage.class
